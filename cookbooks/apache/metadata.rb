@@ -1,0 +1,7 @@
+name 'apache'
+maintainer 'sandeep'
+maintainer_email 'saneepmalagi1993@gmail.com'
+license 'all_rights'
+description 'Installs/Configures apache'
+long_description 'Installs/Configures apache'
+version '0.1.0'
