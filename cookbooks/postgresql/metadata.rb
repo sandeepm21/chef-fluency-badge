@@ -1,0 +1,7 @@
+name 'postgresql'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures postgresql'
+long_description 'Installs/Configures postgresql'
+version '0.1.0'
