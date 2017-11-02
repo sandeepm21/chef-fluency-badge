@@ -8,18 +8,18 @@
 
 if node['platform_family'] == "redhat"
 	package = "httpd"
-elsif node ['platform_family'] == "debian"
+else node['platform_family'] == "debian"
 	package = "apache2"
 end
 	
 
-package 'apache2' do
-	package_name 'package'
+package 'install httpd' do
+	package_name package
   action :install
 end
 
-service 'name' do
-   service_name 'httpd'
+service 'start service' do
+   service_name package
   action [:start, :enable]
 end
 
