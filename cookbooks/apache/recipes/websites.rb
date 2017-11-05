@@ -3,3 +3,9 @@ file 'default www' do
   content 'Hello world!'
   action :create
 end
+
+webnodes = search('node', 'role:web')
+
+webnodes.each do |node|
+		puts node
+end
